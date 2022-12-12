@@ -4,6 +4,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 120%;
+  color: var( --text-color);
 }
 
 .pricing__text {
@@ -12,12 +13,14 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 155%;
+  color: var( --text-color);
 }
 
 .pricing__subtitle {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
+  color: var( --text-color);
 }
 
 .strong {
@@ -26,6 +29,7 @@
   font-weight: 800;
   font-size: 28px;
   line-height: 120%;
+  color: var( --text-color);
 }
 
 .pricing__subtext {
@@ -34,6 +38,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 155%;
+  color: var( --text-color);
 }
 
 a {
@@ -47,6 +52,11 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 155%;
+  color: var( --text-color);
+
+  &:hover .pricing__link{
+    color: var( --text-color);
+  }
 }
 
 .pricing__subitem:nth-child(5) {
@@ -82,19 +92,22 @@ a {
   padding: 15px 100px;
   text-align: center;
   text-decoration: none;
-  background-color: var(--bg-color);
-  color: #FF007A;
-  border: 1px solid #FF007A;
+  background-color: var(--bg-hover);
+  color: var(--pricing-br);
+  border: 1px solid var(--prising-br);
+  color: var( --text-color);
 }
-
+.pricing__wraper:hover .pricing__link {
+  color:var( --text-color) ;
+  background-color: var(--prising-br);
+}
 .pricing__item {
   border: 1px solid transparent;
   border-radius: 8px;
-
 }
 
 .pricing__item:hover {
-  border: 1px solid #FF007A;
+  border: 1px solid var(--prising-br);
   border-radius: 8px;
 }
 
