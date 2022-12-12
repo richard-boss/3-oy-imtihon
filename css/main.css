@@ -677,7 +677,7 @@ a {
 .protection__link {
   margin-top: 15px;
   text-decoration: none;
-  background-color: var(--bg-color);
+  background-color: transparent;
   color: #FF007A;
   border: 1px solid #FF007A;
 }
@@ -689,6 +689,10 @@ a {
 
 .protection__item2 {
   margin: 100px 0px 116px 0px;
+  background-color: var(--protection-bg);
+}
+
+.linkillo {
   background-color: var(--protection-bg);
 }
 
@@ -795,6 +799,10 @@ a {
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #252B42;
+}
+
+.pricing {
+  margin-top: 50px;
 }
 
 .pricing__title {

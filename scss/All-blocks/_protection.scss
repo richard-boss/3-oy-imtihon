@@ -42,7 +42,7 @@
 .protection__link {
   margin-top: 15px;
   text-decoration: none;
-  background-color: var(--bg-color);
+  background-color: transparent;
   color: #FF007A;
   border: 1px solid #FF007A;
 
@@ -54,5 +54,8 @@
 
 .protection__item2 {
   margin: 100px 0px 116px 0px;
+  background-color: var(--protection-bg);
+}
+.linkillo {
   background-color: var(--protection-bg);
 }
