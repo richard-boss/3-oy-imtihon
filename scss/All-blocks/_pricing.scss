@@ -92,13 +92,12 @@ a {
   padding: 15px 100px;
   text-align: center;
   text-decoration: none;
-  background-color: var(--bg-hover);
-  color: var(--pricing-br);
+  background-color: transparent;
+  color:  var(--prising-br);
   border: 1px solid var(--prising-br);
-  color: var( --text-color);
 }
 .pricing__wraper:hover .pricing__link {
-  color:var( --text-color) ;
+  color:var( --black) ;
   background-color: var(--prising-br);
 }
 .pricing__item {

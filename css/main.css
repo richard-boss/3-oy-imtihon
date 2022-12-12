@@ -7,6 +7,7 @@
   --protection-bg: #FCFBFF;
   --customer-bg: #F7F5FF;
   --prising-br: #FF007A;
+  --black:#fff;
 }
 
 .dark {
@@ -18,6 +19,7 @@
   --protection-bg: #211F25;
   --customer-bg: #555555;
   --prising-br: #FF94C7;
+  --black:#000;
 }
 
 @font-face {
@@ -568,6 +570,7 @@ a {
   font-weight: 700;
   font-size: 32px;
   line-height: 120%;
+  color: var(--text-color);
 }
 
 .software__desk {
@@ -577,6 +580,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 155%;
+  color: var(--text-color);
 }
 
 .software__link {
@@ -886,14 +890,13 @@ a {
   padding: 15px 100px;
   text-align: center;
   text-decoration: none;
-  background-color: var(--bg-hover);
-  color: var(--pricing-br);
+  background-color: transparent;
+  color: var(--prising-br);
   border: 1px solid var(--prising-br);
-  color: var(--text-color);
 }
 
 .pricing__wraper:hover .pricing__link {
-  color: var(--text-color);
+  color: var(--black);
   background-color: var(--prising-br);
 }
 
