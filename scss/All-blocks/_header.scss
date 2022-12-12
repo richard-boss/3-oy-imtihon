@@ -1,0 +1,89 @@
+.site-header {
+  // background-image: url("../images/hero_bgi.png");
+  background-image: var(--bg-img);
+  background-size: 100%;
+  background-repeat: no-repeat;
+ 
+}
+
+.navbar {
+  margin-left: auto;
+  
+}
+
+.site-header__top__link {
+  text-decoration: none;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 155%;
+}
+
+.site-header__top__link:hover {
+  border-bottom: 1px solid #fff;
+  opacity: 0.6;
+}
+
+.site-header__bottom__title {
+  font-family: 'Nunito';
+  font-style: normal;
+  margin: 0 auto;
+  width: 500px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 120%;
+
+}
+
+.site-header__bottom__text {
+  font-family: 'Nunito';
+  font-style: normal;
+  width: 471px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+}
+
+.site-header__bottom__link {
+  border: 1px solid transparent;
+  background: #FF007A;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 32px;
+  text-decoration: none;
+}
+
+.site-header__bottom__link2 {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.site-header__bottom__link:hover {
+  background-color: transparent;
+  border: 1px solid #FFF;
+}
+
+.site-header__bottom__link2:hover {
+  background-color: #FF007A;
+  border: 1px solid #FF007A;
+}
+
+.picaso {
+  margin-top: 100px;
+}
+
+.header-wrapper {
+  margin-left: 380px;
+}
+
+.site-header__bottom__link2::after {
+position: absolute;
+right: 8px;
+bottom: 9px;
+  width: 36px;
+  height: 36px;
+  background-image: url('../images/modal_play.svg');
+  background-repeat: no-repeat;
+  content: '';
+}

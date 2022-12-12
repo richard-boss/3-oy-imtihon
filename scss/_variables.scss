@@ -1,0 +1,17 @@
+:root {
+  --bg-color: #fff;
+  --bg-color-customer: #FCFBFF;
+  --text-color: #211F25;
+  --bg-img: url('../images/hero_bgi.png');
+  --bg-hover: #F7F5FF;
+  --protection-bg: #FCFBFF;
+}
+
+.dark {
+  --bg-color: #000;
+  --bg-color-customer: #211F25;
+  --text-color: #fff;
+  --bg-img: url('../images/dark-bgi.png');
+  --bg-hover: #211F25;
+  --protection-bg: #211F25;
+}
